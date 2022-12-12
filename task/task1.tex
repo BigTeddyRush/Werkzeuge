@@ -53,37 +53,37 @@
         \subsection{Methoden}
         Bei der Klasse \texttt{DataSet} sind insbesondere folgenden Methoden zu implementieren, die genaue Spezifikation finden Sie in der \texttt{dataset.py}:\\
         \begin{itemize}
-             \item \_\_setitem\_\_(self, name, id\_content)\verb|\item| command.\\
+             \item \_\_setitem\_\_(self, name, id\_content)
              Hinzufügen eines Datums, mit Name, ID und Inhalt
-            \item \_\_iadd\_\_(self, item)\\
-            Hinzufügen eines "DataSetItem"
-            \item \_\_delitem\_\_(self, name)\\
-            Löschen eines Datums auf Basis des Namens.\\
+            \item \_\_iadd\_\_(self, item)
+            Hinzufügen eines \texttt{DataSetItem}
+            \item \_\_delitem\_\_(self, name)
+            Löschen eines Datums auf Basis des Namens.
             Das heißt auch, dass der Name eines Datums ein eindeutiger Schlüssel ist und jeder Name nur einmal pro Datensatz vorkommen kann.
-            \item \_\_contains\_\_(self, name)\\
+            \item \_\_contains\_\_(self, name)
             Prüfung, ob ein Datum mit diesem Namen im Datensatz vorhanden ist.
-            \item \_\_getitem\_\_(self, name)\\
+            \item \_\_getitem\_\_(self, name)
             Abrufen des Datums über seinen Namen.
-            \item \_\_and\_\_(self, dataset)\\
+            \item \_\_and\_\_(self, dataset)
             Schnittmenge zweier Datensätze bestimmen und als einen neuen Datensatz zurückgeben.
-            \item \_\_or\_\_(self, dataset)\\
+            \item \_\_or\_\_(self, dataset)
             Vereinigungen zweier Datensätze bestimmen und als einen neuen Datensatz zurückgeben.
-            \item \_\_iter\_\_(self)\\
+            \item \_\_iter\_\_(self)
             Iteration über alle Daten den Datensatzes (es ist möglich eine Sortierung für die Reihenfolge der Iteration anzugeben).
-            \item filtered\_iterate(self, filter)\\
+            \item filtered\_iterate(self, filter)
             Gefilterte Iteration über einen Datensatz, dabei dient eine Lambda-Funktion mit den Parametern Name und ID für jedes Datum als Filter.
-            \item \_\_len\_\_(self)\\
+            \item \_\_len\_\_(self)
             Anzahl der Daten in einem Datensatz abrufen.
             
         \end{itemize}
         
     \section{Abgabe}
-    Programmieren Sie die Klasse "DataSet" in der Datei "implementation.py" zur Lösung der oben beschrieben Aufgabe im VPL.
+    Programmieren Sie die Klasse \texttt{DataSet} in der Datei \texttt{implementation.py} zur Lösung der oben beschrieben Aufgabe im VPL.
     Sie können auch direkt auf Ihrem Computer programmieren, dazu finden Sie alle drei benötigten Dateien zum Download im Moodle.\\
     \\
-    Das VPL nutzt den gleichen Code, wobei die "main.py" um weitere Testfälle und Überprüfungen erweitert wurde.
+    Das VPL nutzt den gleichen Code, wobei die \texttt{main.py} um weitere Testfälle und Überprüfungen erweitert wurde.
     Die Überprüfungen dienen dazu sicherzustellen, dass Sie die richtigen Klassen nutzen.\\
     
-%
+
 
 \end{document}
