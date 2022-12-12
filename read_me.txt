@@ -1,15 +1,13 @@
-LaTeX-Unterlagen
-<===============>
+# LaTeX-Unterlagen
+***
 
-"In diesem Repository befinden sich die LaTeX-Unterlagen zum Modul."
+#### *In diesem Repository befinden sich die LaTeX-Unterlagen zum Modul.*
 
-Inhalt
-<---->
+***
 
-Der Inhalt entspricht dem Text der Aufgabe 2 des Modul.
-
-Es kann sinnvoll sein, sich die PDF zur Aufgabe zwei noch einmal
-anzusehen
+Diese Aufgabe befasst sich mit der Implementation der Klasse DataSet.
+DataSet ist eine Spezifikation der abstrakten Klasse DataSetInterface und dient der Verwaltung mehrerer DataSetItems.
+Insbesondere befasst sich diese Aufgabe mit Magic Methods.
 
 
 PDF erstellen
