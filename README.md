@@ -10,7 +10,7 @@ Es kann sinnvoll sein, sich die PDF zur Aufgabe zwei noch einmal anzusehen.
 
 ## PDF erstellen
 Das geht ganz schnell und einfach:
-* Zuerst installieren wir [LaTeX](tug.org/texlive/)
+* Zuerst installieren wir [LaTeX](https://tug.org/texlive/)
 * Dann nutzen wir PDFLaTeX zum Erstellen des PDF[^1]
 * Alternativ koennen wir auch einfach LaTeX Mk nutzen[^2]
 
